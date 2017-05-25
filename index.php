@@ -1,4 +1,4 @@
-<?
+<?php
 
 // EU-VAT check - partita-IVA
 //  http://www.dontesta.it/blog/web-services/web-service-partite-iva-comunitarie/ (italian)
@@ -20,7 +20,7 @@ $js = $client->checkVat( array(
 	'vatNumber'   => GetVal( 'vat', '00146089990' )
 ) );
 
-//echo( json_encode( $js ) );
+//echo( json_encode( $js ) );   // result
 //var_dump( $js );
 
 ?><!DOCTYPE html>
