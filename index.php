@@ -26,10 +26,10 @@ $js = $client->checkVat( array(
 ?><!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8"> 
-        <meta name="robots" content="noindex, nofollow">
-		<link rel="shortcut icon" href="favicon.ico">
-		<title>IVA</title>
+    <meta charset="utf-8"> 
+    <meta name="robots" content="noindex, nofollow">
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>Check VAT ID</title>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <style>
             * {
@@ -58,10 +58,10 @@ $js = $client->checkVat( array(
             }
             			
             h3 {
-				font-size:14px;
-				margin-bottom:22px;
-				color:#17469e;
-			}
+		        font-size:14px;
+		        margin-bottom:22px;
+		        color:#17469e;
+	        }
 			
             .block {
                 margin: 0;
@@ -117,15 +117,15 @@ $js = $client->checkVat( array(
     </head>
     <body>
         <div class="block">
-            <h3>Partita IVA (comunitaria):</h3>
+            <h3>EU Check VAT ID:</h3>
             <form method="post">
 	            <table>
 					<tr>
-						<td>Partita IVA:</td>
+						<td>VAT ID:</td>
 						<td><input type="text" name="vat" autocomplete="off" value="<?php echo( GetVal( 'vat', '01014850257' ) ); ?>"/></td>
 		            </tr>
 					<tr>
-						<td>Paese (IT):</td>
+						<td>Country (ex IT):</td>
 						<td><input type="text" name="cc" autocomplete="off" value="<?php echo( GetVal( 'cc', 'IT' ) ); ?>"/></td>
 		            </tr>
 		            <?
