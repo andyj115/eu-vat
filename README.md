@@ -1,4 +1,4 @@
-# EU VAT ID check via webservice
+# EU VAT ID check via VIES webservice
 general study purpose:
   * SOAP webservice in PHP
   * git/github (git with GitHub desktop)
